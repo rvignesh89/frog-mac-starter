@@ -1,13 +1,11 @@
 #! /bin/bash
 
-sudo -i
-
 directory="/opt/frog-mac-starter"
 
-mkdir -p $directory
+sudo mkdir -p $directory
 
-cd $directory && curl -L -O https://github.com/rvignesh89/frog-mac-starter/releases/download/v0.1.0/frog-mac-starter.zip
+cd $directory && sudo curl -fsSLO https://github.com/rvignesh89/frog-mac-starter/releases/download/v0.1.1/frog-mac-starter.zip
 
-unzip "${directory}/frog-mac-starter.zip"
+sudo unzip "${directory}/frog-mac-starter.zip"
 
 sh "${directory}/bootstrap.sh"
