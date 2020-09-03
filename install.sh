@@ -1,9 +1,11 @@
 #! /bin/bash
 
-mkdir -p ~/.mac-starter && cd ~/.mac-starter
+directory="/opt/frog-mac-starter"
 
-curl -L -O https://github.com/rvignesh89/mac-starter/releases/download/0.0.1/mac-starter.zip 
+mkdir -p $directory
 
-unzip ~/.mac-starter/mac-starter.zip 
+cd $directory && curl -L -O https://github.com/rvignesh89/mac-starter/releases/download/0.0.1/frog-mac-starter.zip 
 
-~/.mac-starter/bootstrap.sh
+unzip "${directory}/frog-mac-starter.zip"
+
+sh "${directory}/bootstrap.sh"
