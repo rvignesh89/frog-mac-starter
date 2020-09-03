@@ -15,8 +15,8 @@ set -e
 # Install nvm
 ./nvm.sh
 
-# Updates
-./update.sh
-
 # AWS CLI
 ./aws-cli.sh
+
+# Updates
+./update.sh
