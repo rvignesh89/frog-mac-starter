@@ -33,7 +33,6 @@ Following are the list of apps/tools which will be installed.
 - Postman
 - Mattermost client
 - Skype for Business
-- 
 
 ## Development Environment
 
@@ -50,6 +49,7 @@ Following are the list of apps/tools which will be installed.
 - SSH keys
 - nvm
 - cypress
+- iTerm2
 
 ## Optional
 
