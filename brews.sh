@@ -2,7 +2,7 @@
 
 echo "==> 🍺 Installing brews..."
 
-declare -a arr=("git" "mas" "docker" "gradle" "jq" "openjdk@11" "kubernetes-cli" "terraform" "kind")
+declare -a arr=("git" "mas" "docker" "gradle" "jq" "openjdk@11" "kubernetes-cli" "terraform" "kind" "pyenv" "pyenv-virtualenv")
 brews=$(brew list)
 
 for br in "${arr[@]}"

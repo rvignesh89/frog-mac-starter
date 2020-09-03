@@ -12,11 +12,8 @@ set -e
 # Mac apps
 ./app-store.sh
 
-# VS Code Stuff
-./vscode.sh
-
-# Dev Environment
-./dev.sh
+# Install nvm
+./nvm.sh
 
 # Updates
 ./update.sh
