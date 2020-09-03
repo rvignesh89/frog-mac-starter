@@ -9,9 +9,6 @@ set -e
 # Setup oh-my-zsh shell
 ./oh-my-zsh.sh
 
-# OSX default
-./osx.sh
-
 # Mac apps
 ./app-store.sh
 

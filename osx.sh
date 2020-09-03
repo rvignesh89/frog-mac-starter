@@ -16,10 +16,11 @@ echo "Set bottom right as hot corner... ✅"
 ln -s "~/Library/Mobile\ Documents/com\~apple\~CloudDocs" ~/icloud &> /dev/null
 echo "Symlink iCloud folder to ~/icloud...✅"
 
-email="vignesh@rvignesh.io"
+email="ben@acme.com"
+full_name="Ben Horowitz"
 
 git config --global user.email "${email}"
-git config --global user.name "Vignesh Rajasekaran"
+git config --global user.name "${full_name}"
 git config --global pull.rebase true
 git config --global core.autocrlf input
 git config --global alias.br branch
