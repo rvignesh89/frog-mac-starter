@@ -2,7 +2,7 @@
 
 echo "==> 🍏 Install apps from Mac App Store"
 
-declare -A apps=( ["iMovie"]="408981434" ["Xcode"]="497799835" )
+declare -A apps=( ["Xcode"]="497799835" )
 installed_apps=$(mas list)
 
 for name in "${(@k)apps}"; do
