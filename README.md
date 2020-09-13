@@ -11,7 +11,7 @@ There are a couple of ways to install the apps.
 For this to work all you need to do is run the following command which takes care of pulling the latest version of this repository and installing from there. 
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/rvignesh89/frog-mac-starter/v0.2.0/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/rvignesh89/frog-mac-starter/v0.3.0/install.sh | bash
 ```
 
 ### Cloning the repo
